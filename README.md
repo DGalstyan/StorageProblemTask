@@ -27,8 +27,8 @@ returns following json
 
 # **Additionally, consider:**
 
-1. The .csv file could be very big (billions of entries) - how would your application
-perform?
+** The .csv file could be very big (billions of entries) - how would your application
+perform?**
 
 * Database Indexing
 * Database Configuration
@@ -44,8 +44,8 @@ consider load balancing and scaling,
 and continuously monitor and optimize performance 
 based on our specific requirements and infrastructure.
 
-2. How would your application perform in peak periods (millions of requests per
-   minute)?
+**How would your application perform in peak periods (millions of requests per
+   minute)?**
 
 * Hardware Resources
 * Load Balancing
@@ -56,7 +56,7 @@ based on our specific requirements and infrastructure.
 * Performance Testing and Monitoring
 
 
-How would you operate this app in production (e.g. deployment, scaling, monitoring)?
+**How would you operate this app in production (e.g. deployment, scaling, monitoring)?**
 
 1. Deployment:
 
