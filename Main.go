@@ -52,7 +52,7 @@ func main() {
 	}()
 
 	// Call the processCSVFilesPeriodically function synchronously
-	processCSVFilesPeriodically("csv_dir", 1*time.Second)
+	processCSVFilesPeriodically("csv_dir", 30*time.Minute)
 
 	// Wait indefinitely
 	select {}
